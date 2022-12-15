@@ -103,7 +103,7 @@ function App() {
             <button type="button" className="numbersButton" onClick={() => addNumber('3')}> 3 </button>
             <button type="button" className="numbersButtonOff">  </button>
             <button type="button" className="numbersButton" onClick={() => addNumber('0')}> 0 </button>
-            <button type="button" className="numbersButtonOff">  </button>
+            <button type="submit" className="submitButton"> = </button>
           </article>
           
           <article id="operatorsGrid">
@@ -112,7 +112,7 @@ function App() {
             <button type="button" className="operatorButton" onClick={() => addOperator('-')}> - </button>
             <button type="button" className="operatorButton" onClick={() => addOperator('+')}> + </button>
             <button type="button" className="operatorButton" onClick={() => addOperator('**')}> xʸ </button>
-            <button type="submit" className="submitButton"> = </button>
+           
           </article>
         </section>
       </form>

@@ -4,7 +4,7 @@ export const Calculator = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 320px;
+  width: 298px;
   background: white;
   box-shadow: 10px 9px 10px -3px rgba(0,0,0,0.10);
   button {
